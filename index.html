@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta name="description" content="Portfolio Ivan Maulana, mahasiswa Teknologi Informasi yang tertarik pada Web Development, Mobile Development, dan UI/UX Design.">
+  <title>Ivan Maulana — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">
+        <span class="brand-mark">I.</span>
+        <span>Ivan Maulana Muiz</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Buka menu" aria-expanded="false"
+        aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#projects">Proyek</a>
+        <a href="#experience">Pengalaman</a>
+        <a class="nav-contact" href="#contact">Hubungi Saya ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          MAHASISWA TEKNOLOGI INFORMASI
+        </div>
+
+        <h1>Membangun pengalaman digital yang <span>bermakna.</span></h1>
+
+        <p class="hero-description">
+          Halo, saya Ivan Maulana Muiz. Saya tertarik mengembangkan
+          aplikasi web, aplikasi mobile, dan antarmuka digital
+          yang fungsional serta mudah digunakan.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Lihat Proyek <span>↗</span>
+          </a>
+          <a class="button button-secondary" href="#contact">
+            Hubungi Saya
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Ivan-Iz"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ivan-maulana-315035436/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="assets/profile.png"
+               alt="Foto profil Ivan Maulana"
+               class="profile-photo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+          <div class="photo-fallback" aria-label="Placeholder foto profil">
+            <span>IM.</span>
+            <small>Tambahkan foto kamu di assets/profile.jpg</small>
+          </div>
+
+          <div class="photo-caption">
+            <span class="caption-icon">✳</span>
+            <div>
+              <strong>Ivan Maulana Muiz</strong>
+              <small>Web · Mobile · UI/UX</small>
+            </div>
+          </div>
+        </div>
+        <div class="decor decor-one"></div>
+        <div class="decor decor-two"></div>
+        <div class="hero-index">PORTFOLIO / 2026</div>
+      </div>
+    </section>
+
+    <section class="focus-strip">
+      <div class="container focus-inner">
+        <span>AREA YANG SAYA JELAJAHI</span>
+        <div>Web Development</div>
+        <div>Mobile Development</div>
+        <div>UI/UX Design</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <span class="section-label">01 / TENTANG SAYA</span>
+        <h2>Belajar, membangun,<br>dan terus berkembang.</h2>
+      </div>
+
+      <div class="about-grid">
+        <p class="about-lead">
+          Saya adalah mahasiswa Teknologi Informasi di
+          Universitas Bina Sarana Informatika (UBSI) yang
+          sedang mengembangkan kemampuan di bidang teknologi.
+        </p>
+        <div class="about-detail">
+          <p>
+            Saya memiliki pengalaman mengerjakan proyek akademik
+            dan personal, mulai dari website berbasis web,
+            aplikasi mobile, hingga perancangan UI/UX.
+            Saya senang mempelajari teknologi baru melalui
+            praktik langsung dan membangun proyek secara bertahap.
+          </p>
+          <p>
+            Saat ini saya ingin terus meningkatkan kemampuan
+            teknis, memperkuat portofolio, dan mencari kesempatan
+            magang atau kolaborasi di bidang IT.
+          </p>
+          <a class="text-link" href="#contact">Mari terhubung ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">02 / KEAHLIAN</span>
+          <h2>Teknologi yang saya gunakan.</h2>
+          <p class="section-intro">
+            Beberapa teknologi dan tools yang pernah saya gunakan
+            dalam pembelajaran maupun pengerjaan proyek.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Web Development</h3>
+            <p>Membangun antarmuka web dan mengembangkan fitur dasar aplikasi.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>PHP</span><span>Bootstrap</span><span>MySQL</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <div class="skill-icon">▣</div>
+            <h3>Mobile Development</h3>
+            <p>Mempelajari pengembangan aplikasi mobile dengan Flutter.</p>
+            <div class="tags">
+              <span>Flutter</span><span>Dart</span><span>SQLite</span>
+              <span>Provider</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <div class="skill-icon">◈</div>
+            <h3>UI/UX Design</h3>
+            <p>Menyusun antarmuka dan alur penggunaan untuk proyek digital.</p>
+            <div class="tags">
+              <span>Figma</span><span>Wireframing</span>
+              <span>Prototyping</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <div class="skill-icon">⌘</div>
+            <h3>Tools & Workflow</h3>
+            <p>Tools untuk pengembangan, pengujian, dan pengelolaan kode.</p>
+            <div class="tags">
+              <span>VS Code</span><span>Android Studio</span>
+              <span>GitHub</span><span>XAMPP</span>
+            </div>
+          </article>
+        </div>
+        <p class="skill-note">
+          Catatan: daftar ini menunjukkan teknologi yang pernah digunakan,
+          bukan klaim bahwa seluruhnya sudah dikuasai secara profesional.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading">
+        <div>
+          <span class="section-label">03 / PROYEK PILIHAN</span>
+          <h2>Belajar lewat karya nyata.</h2>
+        </div>
+        <span class="project-count">PROJECTS / 06</span>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-cake">
+            <span class="preview-label">WEB DEVELOPMENT</span>
+            <div class="cake-art">
+              <div class="cake-top"></div>
+              <div class="cake-body"></div>
+              <div class="cake-plate"></div>
+            </div>
+            <span class="preview-word">Cake Store</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Personal Project</span><span>01</span></div>
+            <h3>Cake_Store</h3>
+            <p>Website toko kue dengan halaman produk dan pengembangan fitur keranjang serta database.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+            <a class="text-link" href="https://github.com/Ivan-Iz/Cake_Store" target="_blank" rel="noopener noreferrer">Lihat repositori ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-news">
+            <span class="preview-label">WEB DEVELOPMENT</span>
+            <div class="news-mock">
+              <span>NEWS / TODAY</span>
+              <div class="news-line"></div><div class="news-line short"></div>
+              <div class="news-block"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Academic Project</span><span>02</span></div>
+            <h3>Portal-Berita</h3>
+            <p>Proyek portal berita berbasis web menggunakan PHP, JavaScript, CSS, dan MySQL.</p>
+            <div class="tags"><span>PHP</span><span>CSS</span><span>JavaScript</span><span>MySQL</span></div>
+            <span class="project-status">Proyek akademik</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-wallet">
+            <span class="preview-label">MOBILE DEVELOPMENT</span>
+            <div class="phone-mock">
+              <span>DompetKu</span>
+              <div class="wallet-balance"></div>
+              <div class="wallet-row"></div><div class="wallet-row"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Academic Project</span><span>03</span></div>
+            <h3>DompetKu</h3>
+            <p>Proyek aplikasi pencatatan keuangan dengan Flutter, Dart, SQLite, dan Provider.</p>
+            <div class="tags"><span>Flutter</span><span>Dart</span><span>SQLite</span><span>Provider</span></div>
+            <span class="project-status">Proyek akademik</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-disaster">
+            <span class="preview-label">INTERACTIVE LEARNING</span>
+            <div class="disaster-scene">
+              <div class="house-roof"></div>
+              <div class="house-body"><span>▥</span></div>
+              <div class="ground-line"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Multimedia Project</span><span>04</span></div>
+            <h3>SiagaBencana 3D</h3>
+            <p>Website edukasi mitigasi gempa dengan model rumah 3D, materi, video, audio, dan kuis interaktif.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>3D</span></div>
+            <span class="project-status">Proyek multimedia</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-ocean">
+            <span class="preview-label">3D WEB EXPERIENCE</span>
+            <div class="ocean-scene">
+              <div class="bubble bubble-a"></div>
+              <div class="bubble bubble-b"></div>
+              <div class="fish">◀))</div>
+              <div class="ocean-wave"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Interactive Project</span><span>05</span></div>
+            <h3>Ocean Life 3D</h3>
+            <p>Eksplorasi kehidupan laut dengan konsep visual 3D, mode akuarium, dan mode menyelam.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>3D</span></div>
+            <span class="project-status">Proyek eksplorasi</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-space">
+            <span class="preview-label">3D / EDUCATION</span>
+            <div class="solar-scene">
+              <div class="orbit orbit-a"><i></i></div>
+              <div class="orbit orbit-b"><i></i></div>
+              <div class="sun"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Developer Portfolio</span><span>06</span></div>
+            <h3>Tata Surya 3D</h3>
+            <p>Proyek visualisasi tata surya 3D untuk mengeksplorasi pemrograman dan visualisasi edukasi.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>3D</span></div>
+            <span class="project-status">Proyek pengembangan</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="projects-note">
+        Sebagian proyek belum memiliki tautan demo publik. Status dan
+        deskripsi dapat diperbarui setelah versi final setiap proyek siap.
+      </p>
+    </section>
+
+    <section class="section section-muted" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">04 / PENGALAMAN</span>
+          <h2>Berproses di luar kelas.</h2>
+          <p class="section-intro">
+            Pengalaman organisasi dan kolaborasi yang mendukung
+            perkembangan saya di bidang teknologi.
+          </p>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-year">PROYEK / BOOTCAMP</div>
+            <div>
+              <h3>RuteAman — UI/UX Design</h3>
+              <p>Berperan dalam UI/UX Design pada proyek kelompok IT Bootcamp RuteAman yang meraih juara 3.</p>
+            </div>
+            <span class="experience-mark">↗</span>
+          </article>
+          <article class="experience-item">
+            <div class="experience-year">ORGANISASI</div>
+            <div>
+              <h3>BEM FTI UBSI — Divisi Akademik dan Prestasi</h3>
+              <p>Terlibat dalam kegiatan divisi akademik dan prestasi serta pengembangan materi terkait dunia IT.</p>
+            </div>
+            <span class="experience-mark">↗</span>
+          </article>
+          <article class="experience-item">
+            <div class="experience-year">PENDIDIKAN</div>
+            <div>
+              <h3>Universitas Bina Sarana Informatika</h3>
+              <p>Mahasiswa Program Studi Teknologi Informasi.</p>
+            </div>
+            <span class="experience-mark">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section container section" id="contact">
+      <div class="contact-panel">
+        <span class="section-label">05 / KONTAK</span>
+        <h2>Punya ide atau kesempatan menarik?</h2>
+        <p>Saya terbuka untuk kesempatan magang, kolaborasi proyek, dan diskusi seputar teknologi.</p>
+        <a class="button button-light"
+           href="mailto:ivann.muizz@gmail.com">Kirim Email ↗</a>
+
+        <div class="contact-links">
+          <a href="https://github.com/Ivan-Iz" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ivan-maulana-315035436/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:ivann.muizz@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">I.</span>
+      <span>Ivan Maulana Muiz</span>
+    </a>
+    <!-- <p>Dirancang dan dikembangkan dengan HTML, CSS, dan JavaScript.</p> -->
+    <span>© <span id="currentYear"></span> Ivan Maulana Muiz</span>
+  </footer>
+</body>
+</html>
