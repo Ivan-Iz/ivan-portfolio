@@ -1138,7 +1138,7 @@ h3 {
   .hero {
     grid-template-columns: 1fr;
     gap: 42px;
-    padding-top: 55px;
+    padding-top: 22px;
     padding-bottom: 65px;
   }
 
